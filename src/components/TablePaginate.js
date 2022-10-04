@@ -148,7 +148,7 @@ export default function StickyHeadTable({countries,selectFilter,search}) {
 
   return (
     <Paper sx={{ width: '80%', overflow: 'hidden',margin:"30px auto" }}>
-      <TableContainer sx={{ maxHeight: 440,border:"5px", }}>
+      <TableContainer sx={{ border:"5px", }}>
         <Table stickyHeader aria-label="sticky table">
           <TableHead>
             <TableRow>
